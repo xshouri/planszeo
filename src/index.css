@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  background: rgb(229, 223, 223);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+  padding: 15px;
+  background: rgb(246, 244, 243);
+  color: rgb(127, 70, 119);
+}
+.leftSideNav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.leftSideNav > img{
+  margin-right: 20px;
+}
+.searchBar{
+  font-size: 15px;
+  padding: 10px;
+  width: 300px;
+  border-width: 1px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.rightSideNav a{
+  color: rgb(127, 70, 119);
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+
+.appTitle{
+  width: 100%;
+  padding: 15px;
+  background: rgb(32, 22, 51);
+  color: rgb(241, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.appSubtitle{
+  width: 100%;
+  padding: 8px;
+  background: rgb(81, 137, 93);
+  color: rgb(241, 255, 255);
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.calendarContainer{
+  background: rgb(241, 237, 235);
+  width: 1250px;
+  padding: 10px 20px 20px 20px;
+  margin: 20px auto;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.calendarContainer > h1{
+  color: rgb(75, 85, 99);
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+}
+.creators{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.creators > img{
+  height: 80px;
+}
+.bttnFilterContainer{
+  display: flex;
+  flex-direction: row;
+}
+.bttnFilter{
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+  color: rgb(127, 70, 119);
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid rgb(127, 70, 119);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+.bttnFilter:hover{
+  background: rgb(127, 70, 119);
+  color: rgb(229, 223, 223);
+}
+.calendar{
+  margin: 40px 0;
+}
+.calendarCard{
+  min-width: 150px;
+  background: url('./calendarCard.svg');
+  background-repeat: no-repeat;
+  color: rgb(255, 240, 237);
+  font-weight: bold;
+  padding: 20px;
+}
+.monthContainer{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  min-height: 80px;
+}
+.productsContainer{
+  display: flex;
+  flex-direction: row;
+}
+.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 0 10px 10px 0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.product > img{
+  height: 50px;
+}
+.product > span{
+  text-align: center;
+}
