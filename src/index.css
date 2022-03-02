@@ -13,50 +13,7 @@ code {
     monospace;
 }
 
-nav{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content:space-between;
-  padding: 15px;
-  background: rgb(246, 244, 243);
-  color: rgb(127, 70, 119);
-}
-.leftSideNav{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.leftSideNav > img{
-  margin-right: 20px;
-}
-.searchBar{
-  font-size: 15px;
-  padding: 10px;
-  width: 300px;
-  border-width: 1px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-.rightSideNav a{
-  color: rgb(127, 70, 119);
-  font-weight: 500;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 0 10px;
-}
-
 .appTitle{
-  width: 100%;
-  padding: 15px;
-  background: rgb(32, 22, 51);
-  color: rgb(241, 255, 255);
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-}
-.appSubtitle{
   width: 100%;
   padding: 8px;
   background: rgb(81, 137, 93);
@@ -115,7 +72,7 @@ nav{
 }
 .calendarCard{
   min-width: 150px;
-  background: url('./calendarCard.svg');
+  background: url('calendarCard.svg');
   background-repeat: no-repeat;
   color: rgb(255, 240, 237);
   font-weight: bold;
@@ -137,17 +94,25 @@ nav{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100px;
+  width: 150px;
   background: rgb(255, 255, 255);
-  padding: 10px;
   margin: 0 10px 10px 0;
+  padding: 10px 20px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
 }
-.product > img{
+.product > .productInfo{
   height: 50px;
+  margin: 10px;
+}
+.product > .productImg{
+  width: 100px;
 }
 .product > span{
+  color: rgb(127, 70, 119);
+  font-weight: 500;
   text-align: center;
+  margin: 20px;
+  width: 140px;
 }
