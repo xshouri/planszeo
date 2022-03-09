@@ -67,6 +67,13 @@ code {
   background: rgb(127, 70, 119);
   color: rgb(229, 223, 223);
 }
+.chosenFilter{
+  background: rgb(127, 70, 119);
+  color: rgb(229, 223, 223);
+}
+.chosenFilter:hover{
+  background: rgb(107, 60, 101);
+}
 .calendar{
   margin: 40px 0;
 }
